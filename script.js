@@ -29,4 +29,13 @@ const convertCurrency = async () => {
   }
 };
 
+const resetButton = document.getElementById('reset-btn');
+
+resetButton.addEventListener('click', () => {
+  amountInput.value = '';
+  fromCurrencySelect.selectedIndex = 0;
+  toCurrencySelect.selectedIndex = 0;
+  resultElement.textContent = '';
+});
+
 convertButton.addEventListener('click', convertCurrency);
