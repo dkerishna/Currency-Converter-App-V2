@@ -1,10 +1,14 @@
 body {
   font-family: 'Nunito';
-  background-color: beige;
+  background-color: bisque;
   display: flex;
   justify-content: center;
   min-height: 9px;
-  background-image: url('./currency-symbols-seamless-pattern-finance-and-trading-theme-texture-HWRRTM.jpg');
+  background-image: url('./Money.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .container {
@@ -63,7 +67,7 @@ button:hover {
 }
 
 .result {
-  color: #0026ff;
+  color: red;
   font-size: 18px;
   font-weight: bold;
   margin-top: 20px;
